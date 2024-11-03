@@ -4,7 +4,7 @@
     {
         public static void Main()
         {
-            string fileName = "code.txt";
+            string fileName = "code.cpp";
             try
             {
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "files", fileName);
