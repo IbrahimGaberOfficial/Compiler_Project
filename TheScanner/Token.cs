@@ -1,4 +1,4 @@
-﻿public partial class CppScanner
+﻿namespace TheScanner
 {
     public struct Token
     {
@@ -21,3 +21,5 @@
         }
     }
 }
+
+

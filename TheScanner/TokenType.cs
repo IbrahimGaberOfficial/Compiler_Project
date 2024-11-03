@@ -1,4 +1,4 @@
-﻿public partial class CppScanner
+﻿namespace TheScanner
 {
     public enum TokenType
     {

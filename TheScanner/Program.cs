@@ -19,7 +19,8 @@
                 string code = File.ReadAllText(filePath);
 
                 CppScanner scanner = new CppScanner();
-                List<CppScanner.Token> tokens = scanner.Tokenize(code);
+
+                List<Token> tokens = scanner.Tokenize(code);
 
                 foreach (var token in tokens)
                 {
