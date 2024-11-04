@@ -26,6 +26,7 @@
                 {
                     Console.WriteLine(token);
                 }
+                Console.ReadLine();
             }
 
             catch (FileNotFoundException ex)
