@@ -2,10 +2,9 @@
 
 ### **How to Run the Project**
 #### Prerequisites
-
-1.NET Core SDK 6.0 or later
-2.Visual Studio 2019/2022 (for development) or Visual Studio Code
-3.Windows/Linux/macOS operating system
+1.NET Core SDK 6.0 or later.
+2.Visual Studio 2019/2022 (for development) or Visual Studio Code.
+3.Windows/Linux/macOS operating system.
 
 **Method 1: Using the Pre-Built Release**
 
