@@ -11,7 +11,7 @@
    - Open the `code.cpp` file in a text editor.
    - Modify the code as needed.
 
-3. **Run the Compiler:**
+3. **Run the exe:**
    - Execute the `TheScanner.exe` file to compile and run your modified code.
    - The output will be displayed in the console.
 
