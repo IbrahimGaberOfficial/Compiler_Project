@@ -1,6 +1,11 @@
 ## **Compiler Project**
 
 ### **How to Run the Project**
+#### Prerequisites
+
+1.NET Core SDK 6.0 or later
+2.Visual Studio 2019/2022 (for development) or Visual Studio Code
+3.Windows/Linux/macOS operating system
 
 **Method 1: Using the Pre-Built Release**
 
@@ -16,14 +21,18 @@
    - The output will be displayed in the console.
 
 **Method 2: Building and Running from Source Code**
+1.**Clone the repository**
+```bash
+git clone https://github.com/IbrahimGaberOfficial/Compiler_Project
+```
 
-1. **Open the Project in Visual Studio:**
+2. **Open the Project in Visual Studio:**
    - Launch Visual Studio and open the project solution.
 
-2. **Edit the Code:**
+3. **Edit the Code:**
    - Navigate to the `/files/code.cpp` file and make necessary modifications.
 
-3. **Build and Run:**
+4. **Build and Run:**
    - Build the project to compile the source code.
    - Run the project to execute the compiled code.
    - The output will be displayed in the Visual Studio output window.
