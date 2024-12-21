@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheScanner", "TheScanner\TheScanner.csproj", "{B83E2E70-5E86-4C49-B6DC-9A3D91776B26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheScanner", "TheScanner\TheScanner.csproj", "{B83E2E70-5E86-4C49-B6DC-9A3D91776B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheParser", "TheParser\TheParser.csproj", "{85449A15-0D80-4066-A90B-45574167AD11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B83E2E70-5E86-4C49-B6DC-9A3D91776B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B83E2E70-5E86-4C49-B6DC-9A3D91776B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B83E2E70-5E86-4C49-B6DC-9A3D91776B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85449A15-0D80-4066-A90B-45574167AD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85449A15-0D80-4066-A90B-45574167AD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85449A15-0D80-4066-A90B-45574167AD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85449A15-0D80-4066-A90B-45574167AD11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
