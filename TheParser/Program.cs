@@ -35,6 +35,7 @@
             else
             {
                 Console.WriteLine("The grammar is not simple.");
+                return;
             }
 
             while (true)
