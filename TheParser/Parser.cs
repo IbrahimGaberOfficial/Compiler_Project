@@ -25,11 +25,16 @@ namespace TheParser
         {
             foreach (var prod in productions)
             {
+                // Check for left recursion (rule starts with the same non-terminal).
+                if (prod.Key == prod.Value[0])
+                    return false;
                 var firstChars = new HashSet<char>();
                 foreach (var rule in prod.Value)
                 {
                     if (rule.Length == 0 || !char.IsLower(rule[0]))
                         return false;
+                    // Check for left recursion (rule starts with the same non-terminal).
+
                     if (!firstChars.Add(rule[0]))
                         return false;
                 }
